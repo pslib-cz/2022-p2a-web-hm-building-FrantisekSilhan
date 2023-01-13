@@ -1,0 +1,13 @@
+:root {
+    --primary: #EB6C27;
+    --btn--filled: #EB6C27;
+    --text: #3A3A3A;
+    --text--gray: #888;
+    --background: #FFF;
+}
+
+html  {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    background-color: var(--background);
+}
