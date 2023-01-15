@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style/main.css" rel="stylesheet">
-    <title>Home | HM Building</title>
+    <link href="style/text.css" rel="stylesheet">
+    <link href="style/normalize.css" rel="stylesheet">
+    <title>HM Building | Domů</title>
 </head>
 <body>
-    
+    <nav>
+        <a href="#">
+            <img class="logo" src="./img/logo.png">
+        </a>
+        <div class="hamburger-menu">
+            <span>MENU</span>
+            <div>
+                <div class="hamburger-menu__line"></div>
+                <div class="hamburger-menu__line"></div>
+                <div class="hamburger-menu__line"></div>
+            </div>
+        </div>
+        <menu>
+            <li class="nav__item nav__item--active"><a href="#">DOMŮ</a></li>
+            <li class="nav__item"><a href="#sluzby">SLUŽBY</a></li>
+            <li class="nav__item"><a href="#">REFERENCE</a></li>
+            <li class="nav__item"><a href="#">O NÁS</a></li>
+            <li class="nav__item"><a href="#">KONTAKT</a></li>
+        </menu>
+    </nav>
+    <header>
+        <h1 class="header__title">HM Building.cz s.r.o.</h1>
+        <p class="header__text">liberecká stavební společnost</p>
+    </header>
+    <article class="sluzby" id="sluzby">
+        <figure class="sluzby__header">
+            <h2>Využijte škálu našich <span class="text--primary">služeb</span></h2>
+            <p>Ačkoliv provádíme především <span class="text--bold">průmyslové stavby</span>, není pro nás problém postavit Vám <span class="text--bold">rodinný domek na klíč</span>, nebo jen hrubou stavbu. Nejsou nám cizí ani <span class="text--bold">rekonstrukce budov</span> a jejich údržba a to včetně okolních ploch.</p>
+        </figure>
+    </article>
+    <script src="./script/main.js"></script>
 </body>
 </html>

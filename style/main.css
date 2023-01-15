@@ -1,13 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
 :root {
-    --primary: #EB6C27;
-    --btn--filled: #EB6C27;
-    --text: #3A3A3A;
-    --text--gray: #888;
-    --background: #FFF;
+  --primary: #EB6C27;
+  --btn--filled: #EB6C27;
+  --text: #3A3A3A;
+  --text--gray: #888;
+  --background: #FFF;
+  --lprimary: #FFBE9A;
+
+  --white: #fff;
 }
 
 html  {
-    font-family: 'Open Sans';
-    font-size: 16px;
-    background-color: var(--background);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: var(--background);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  width: 46px;
+  height: 100%;
+}
+
+.hamburger-menu > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 3px;
+
+  width: 100%;
+}
+
+.hamburger-menu span {
+  width: 36px;
+  height: 16px;
+  font-size: 12px;
+
+  color: var(--text);
+}
+
+.hamburger-menu__line {
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(90deg, var(--primary), var(--lprimary))
+}
+
+.logo {
+  width: 127px;
+  height: 44px;
+}
+
+.nav__item {
+  list-style: none;
+}
+.nav__item a {
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--white);
+}
+.nav__item--active a {
+  font-weight: 700;
+}
+
+menu {
+  position: absolute;
+
+  height: 240px;
+  top: 100px;
+  right: 20px;
+  left: 20px;
+
+  background-color: var(--primary);
+  
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+menu.visible {
+  display: flex;
+}
+
+menu::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 20px solid var(--primary);
+  top: -20px;
+  right: 11px;
+  position: absolute;
+}
+
+header {
+  height: 269px;
+  padding: 20px;
+  line-height: 41px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  background: linear-gradient(0deg, rgba(36, 36, 36, 0.4), rgba(36, 36, 36, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #42332A 0%, rgba(255, 255, 255, 0) 100%), url("../img/pageheader-1920w.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: normal, normal, hue, normal;
+}
+
+.header__title {
+  margin: 0;
+  color: var(--white);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.header__text {
+  margin: 0;
+  color: var(--white);
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.sluzby {
+  padding: 21px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
 }
