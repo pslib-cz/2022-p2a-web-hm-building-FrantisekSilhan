@@ -1,0 +1,13 @@
+.form {
+  width: 100%;
+}
+
+.form__item {
+  border: 1px solid var(--primary);
+  padding: .5em;
+  width: calc(100% - 1.5em + 5px);
+}
+
+.form__text {
+  margin: 1.25em 0 .5em 0;
+}
