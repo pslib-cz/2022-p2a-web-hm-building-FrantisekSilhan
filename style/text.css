@@ -2,6 +2,50 @@
   font-weight: 700;
 }
 
+.text--light {
+  font-weight: 300;
+}
+
 .text--primary {
   color: var(--primary);
+}
+
+.text--white {
+  color: var(--white);
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--s0 {
+  font-size: 2.2rem; /*30px*/
+}
+
+.text--s1 {
+  font-size: 1.6rem; /*22px*/
+}
+
+.text--s2 {
+  font-size: 1.4rem; /*20px*/
+}
+
+.text--s3 {
+  font-size: 1.2rem; /*17px*/
+}
+
+.text--s4 {
+  font-size: 0.85rem; /*12px*/
+}
+
+h1 {
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.6rem;
 }
