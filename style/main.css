@@ -131,6 +131,10 @@ html  {
 }
 
 .padding {
+  padding: 1.5em;
+}
+
+.padding--list {
   padding: 1em;
 }
 
