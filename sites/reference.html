@@ -8,53 +8,49 @@
     <link href="../style/text.css" rel="stylesheet">
     <link href="../style/button.css" rel="stylesheet">
     <link href="../style/normalize.css" rel="stylesheet">
-    <title>HM Building | Domů</title>
+    <title>HM Building | Reference</title>
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <a href="../index.html">
-            <img class="logo" src="../img/logo.png">
+            <img src="../img/logo.png">
         </a>
-        <div class="hamburger-menu">
+        <div class="hamburger text--center">
             <span>MENU</span>
-            <div>
-                <div class="hamburger-menu__line"></div>
-                <div class="hamburger-menu__line"></div>
-                <div class="hamburger-menu__line"></div>
-            </div>
+            <img src="../img/lines.svg">
         </div>
-        <menu>
-            <li class="nav__item nav__item--active"><a href="../index.html">DOMŮ</a></li>
-            <li class="nav__item"><a href="../index.html#sluzby">SLUŽBY</a></li>
-            <li class="nav__item"><a href="#">REFERENCE</a></li>
-            <li class="nav__item"><a href="./onas.html">O NÁS</a></li>
-            <li class="nav__item"><a href="#">KONTAKT</a></li>
+        <menu class="navbar__menu">
+            <li class="nav__item"><a class="text--white" href="../index.html">DOMŮ</a></li>
+            <li class="nav__item"><a class="text--white" href="../index.html#sluzby">SLUŽBY</a></li>
+            <li class="nav__item"><a class="text--white text--bold" href="#">REFERENCE</a></li>
+            <li class="nav__item"><a class="text--white" href="./onas.html">O NÁS</a></li>
+            <li class="nav__item"><a class="text--white" href="#">KONTAKT</a></li>
         </menu>
     </nav>
-    <section id="reference" class="reference">
+    <section class="padding reference">
         <header>
-            <h1>Reference</h1>
+            <h1 class="text--s0 text--bold">Reference</h1>
             <p>Stojí za námi <span class="text--bold">kvalitně vyhotovené zakázky</span> dle konkrétních požadavků zadavatelů <span class="text--bold">podepřené letitými zkušenostmi ve stavebnictví</span>. To, že <span class="text--bold">obrátit se na právě nás je vhodná volba potvrdí naši klienti</span>, na jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se rozhodně nestydíme.</p>
         </header>
-        <article>
-            <img class="img reference__img" src="../img/reference/reference-hasicska-zbrojnice-600w.jpg">
+        <a class="reference__item text--center" href="#">
+            <img class="img" src="../img/reference/reference-hasicska-zbrojnice-600w.jpg">
             <h2>Hasičská zbrojnice</h2>
-            <p>celková rekonstrukce</p>
-        </article>
-        <article>
-            <img class="img reference__img" src="../img/reference/reference-pradelna-600w.jpg">
+            <p class="text--s4">celková rekonstrukce</p>
+        </a>
+        <a class="reference__item text--center" href="#">
+            <img class="img" src="../img/reference/reference-pradelna-600w.jpg">
             <h2>Samoobslužná prádelna</h2>
-            <p>stavební úpravy a opravy</p>
-        </article>
-        <article>
-            <img class="img reference__img" src="../img/reference/reference-plocha-600w.jpg">
+            <p class="text--s4">stavební úpravy a opravy</p>
+        </a>
+        <a class="reference__item text--center" href="#">
+            <img class="img" src="../img/reference/reference-plocha-600w.jpg">
             <h2>Venkovní plochy Restyl</h2>
-            <p>provedení venkovnách ploch</p>
-        </article>
+            <p class="text--s4">provedení venkovnách ploch</p>
+        </a>
     </section>
-    <footer class="footer">
-        <h2 class="footer__title">Plácneme si pro Váš projekt?</h2>
-        <p class="footer__text">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+    <footer class="footer padding text--center">
+        <p class="text--white text--s1">Plácneme si pro Váš projekt?</p>
+        <p class="text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
         <a href="#" class="btn btn--light">Nezávazně poptat</a>
     </footer>
     <script src="../script/main.js"></script>

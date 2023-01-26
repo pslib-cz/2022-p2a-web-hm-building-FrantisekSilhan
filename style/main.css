@@ -126,6 +126,10 @@ html  {
   background-color: var(--primary);
 }
 
+.marker--primary::marker {
+  color: var(--primary);
+}
+
 .padding {
   padding: 1em;
 }
