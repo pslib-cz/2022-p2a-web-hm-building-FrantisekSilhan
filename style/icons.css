@@ -1,3 +1,13 @@
-.icon {
+.iconasdasds {
   margin: 3em 0;
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+  background-color: var(--primary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

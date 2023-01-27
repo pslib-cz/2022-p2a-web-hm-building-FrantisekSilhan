@@ -3,11 +3,19 @@
 }
 
 .form__item {
-  border: 1px solid var(--primary);
-  padding: .5em;
-  width: calc(100% - 1.5em + 5px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
 }
 
-.form__text {
-  margin: 1.25em 0 .5em 0;
+.form__item__input {
+  margin-top: .25em;
+  border: 1px solid var(--primary);
+  padding: .5em;
+  background-color: var(--white);
+}
+
+.form__btn {
+  margin-top: 1em;
 }

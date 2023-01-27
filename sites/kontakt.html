@@ -32,32 +32,52 @@
     <div class="padding">
       <h1>Kontaktujte nás</h1>
       <p>Zavolejte anebo nám napište... kvalitní komunikace je jeden z pilířů, na kterém stavíme.</p>
-      <p class="text--primary text--bold icon">+420 775 550 564</p>
-      <p class="text--primary text--bold icon">stavby@hm-building.cz</p>
-      <p class="text--primary text--bold icon">Křižanská 12, Liberec XXII-Horní Suchá</p>
+      <div class="contact__list">
+        <div class="contact__list-element">
+          <i class="icon"><img src="../img/svg/phone.svg"></i>
+          <p class="text--primary text--bold">+420 775 550 564</p>
+        </div>
+        <div class="contact__list-element">
+          <i class="icon"><img src="../img/svg/mail.svg"></i>
+          <p class="text--primary text--bold">stavby@hm-building.cz</p>
+        </div>
+        <div class="contact__list-element">
+          <i class="icon"><img src="../img/svg/location.svg"></i>
+          <p class="text--primary text--bold">Křižanská 12, Liberec XXII-Horní Suchá</p>
+        </div>
+      </div>
     </div>
     <img src="../img/mapa.jpg" class="img">
     <div class="padding">
       <h2>Nezávazná poptávka služeb</h2>
       <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
-      <form class="form">
-        <p class="text--bold form__text">Jméno a příjmení</p>
-        <input type="text" class="form__item">
-        <p class="text--bold form__text">E-mail</p>
-        <input type="email" class="form__item">
-        <p class="text--bold form__text">Telefon</p>
-        <input type="text" class="form__item">
-        <p class="text--bold form__text">Poptávaná služba</p>
-        <input type="text" class="form__item">
-        <!--<select class="form__item">
-          <option value="Novostavba">Novostavba</option>
-          <option value="Novostavba">Novostavba</option>
-          <option value="Novostavba">Novostavba</option>
-          <option value="Novostavba">Novostavba</option>
-        </select>-->
-        <p class="text--bold form__text">Poznámka</p>
-        <textarea rows="10" class="form__item"></textarea>
-        <button class="btn form__text" type="submit">Odeslat nezávaznou poptávku</button>
+      <form>
+        <label class="form__item text--bold">
+          Jméno a příjmení
+          <input type="text" class="form__item__input">
+        </label>
+        <label class="form__item text--bold">
+          E-mail
+          <input type="email" class="form__item__input">
+        </label>
+        <label class="form__item text--bold">
+          Telefon
+          <input type="text" class="form__item__input">
+        </label>
+        <label class="form__item text--bold">
+          Poptávaná služba
+          <select class="form__item__input">
+            <option value="Novostavba">Novostavba</option>
+            <option value="Novostavba">Průmyslová stavba</option>
+            <option value="Novostavba">Rekonstrukce</option>
+            <option value="Novostavba">Komunikace a zpevněné plochy</option>
+          </select>
+        </label>
+        <label class="form__item text--bold">
+          Poznámka
+          <textarea rows="10" class="form__item__input"></textarea>
+        </label>
+        <button class="btn form__btn" type="submit">Odeslat nezávaznou poptávku</button>
       </form>
     </div>
     <script src="../script/main.js"></script>
