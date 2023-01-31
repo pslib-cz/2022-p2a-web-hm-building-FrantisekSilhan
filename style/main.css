@@ -16,10 +16,14 @@ html  {
   font-size: 14px;
   background-color: var(--background);
   color: var(--text);
+
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .img {
   width: 100%;
+  height: 100%;
   display: block;
   margin: 0;
   padding: 0;
@@ -32,6 +36,7 @@ html  {
   align-items: center;
   padding: 1.5em 1em;
   background-color: var(--white);
+  width: calc(100% - 2em);
 }
 
 .navbar__menu {
@@ -70,44 +75,82 @@ html  {
   list-style: none;
 }
 
+.nav__item__link {
+  color: var(--white);
+}
+
+.nav__item__link--active {
+  font-weight: 700;
+}
+
 .hamburger {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  text-align: center;
 }
 
-.page__header {
+.header {
   background: linear-gradient(0deg, rgba(36, 36, 36, 0.4), rgba(36, 36, 36, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #42332A 0%, rgba(255, 255, 255, 0) 100%), url("../img/pageheader-1920w.jpg");
   background-blend-mode: normal, normal, hue, normal;
 }
 
-.page__header__body {
+.header__body {
   height: 17rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  text-align: center;
+}
+
+.header__title {
+  color: var(--white);
+}
+
+.header__description {
+  font-size: 1.4rem;
+  font-weight: 200;
+  display: block;
 }
 
 .sluzby {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 2.5em;
 }
 
-.sluzba:nth-child(odd) .img {
+.sluzba:nth-child(odd) .sluzba__img {
   border-radius: 0 0 40px 0;
 }
 
-.sluzba:nth-child(even) .img {
+.sluzba:nth-child(even) .sluzba__img {
   border-radius: 0 0 0 40px;
 }
 
-.sluzba:nth-child(2) .img {
+.sluzba:nth-child(2) .sluzba__img {
   border-radius: 0 0 0 20px;
+}
+
+.sluzba__img {
+  max-height: 20em;
 }
 
 .sluzby-nabidky {
   height: 11rem;
   background: linear-gradient(0deg, rgba(36, 36, 36, 0.8), rgba(36, 36, 36, 0.8)), linear-gradient(180deg, rgba(66, 51, 42, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url("../img/background-CTAblock-4460w.jpg");
+}
+
+.section__header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 1.5em;
+}
+
+.section__title {
+  font-size: 1.6rem;
 }
 
 .reference {
@@ -120,10 +163,12 @@ html  {
 .reference__item {
   color: var(--text);
   text-decoration: none;
+  text-align: center;
 }
 
 .footer {
   background-color: var(--primary);
+  text-align: center;
 }
 
 .list-title {
@@ -169,4 +214,17 @@ html  {
   align-items: center;
   gap: .5em;
   margin: 1em 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  grid-auto-flow: dense;
+}
+
+.reference-btn {
+  margin-top: 1em;
+  width: 100%;
+  text-align: center;
 }

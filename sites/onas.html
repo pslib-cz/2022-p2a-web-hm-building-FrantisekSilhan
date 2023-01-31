@@ -8,25 +8,28 @@
     <link href="../style/text.css" rel="stylesheet">
     <link href="../style/button.css" rel="stylesheet">
     <link href="../style/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/desktop.css" media="screen and (min-width: 1024px)">
     <title>HM Building | O nás</title>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="../index.html">
-            <img src="../img/logo.png">
-        </a>
-        <div class="hamburger text--center">
-            <span>MENU</span>
-            <img src="../img/lines.svg">
-        </div>
-        <menu class="navbar__menu">
-            <li class="nav__item"><a class="text--white" href="../index.html">DOMŮ</a></li>
-            <li class="nav__item"><a class="text--white" href="../index.html#sluzby">SLUŽBY</a></li>
-            <li class="nav__item"><a class="text--white" href="./reference.html">REFERENCE</a></li>
-            <li class="nav__item"><a class="text--white text--bold" href="#">O NÁS</a></li>
-            <li class="nav__item"><a class="text--white" href="./kontakt.html">KONTAKT</a></li>
-        </menu>
-    </nav>
+    <header class="header header--nevim">
+        <nav class="navbar">
+            <a href="../index.html">
+                <img src="../img/logo.png">
+            </a>
+            <div class="hamburger">
+                <span>MENU</span>
+                <img src="../img/lines.svg">
+            </div>
+            <menu class="navbar__menu">
+                <li class="nav__item"><a class="nav__item__link" href="../index.html">DOMŮ</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="../index.html#sluzby">SLUŽBY</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./reference.html">REFERENCE</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__item__link" href="#">O NÁS</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./kontakt.html">KONTAKT</a></li>
+            </menu>
+        </nav>
+    </header>
     <section class="padding">
         <h1>O nás</h1>
         <p>Společnost <span class="text--bold">HM Building.cz s.r.o.</span> nabízí své <span class="text--bold">služby ve stavebnictví od roku 2015</span>, a to převážně <span class="text--bold">po Libereckém kraji.</span></p>
@@ -41,7 +44,7 @@
         <p>Naše firma taktéž zajišťuje <span class="text--bold">projekční služby a služby týkající se statického posouzení staveb</span> v oboru pozemního stavitelství a dále jsme schopni zajistit <span class="text--bold">investorsko–inženýrské služby</span>.</p>
         <p><span class="text--bold">Záruční doba</span> na námi provedená díla se pohybuje od 24 do 60 měsíců.</p>
     </section>
-    <footer class="footer padding text--center">
+    <footer class="footer padding">
         <p class="text--white text--s1">Plácneme si pro Váš projekt?</p>
         <p class="text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
         <a href="./kontakt.html" class="btn btn--light">Nezávazně poptat</a>

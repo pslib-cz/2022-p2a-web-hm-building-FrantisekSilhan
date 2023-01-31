@@ -8,25 +8,28 @@
     <link href="../../style/text.css" rel="stylesheet">
     <link href="../../style/button.css" rel="stylesheet">
     <link href="../../style/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../style/desktop.css" media="screen and (min-width: 1024px)">
     <title>HM Building | Průmyslové stavby</title>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="../../index.html">
-            <img src="../../img/logo.png">
-        </a>
-        <div class="hamburger text--center">
-            <span>MENU</span>
-            <img src="../../img/lines.svg">
-        </div>
-        <menu class="navbar__menu">
-            <li class="nav__item"><a class="text--white" href="../../index.html">DOMŮ</a></li>
-            <li class="nav__item"><a class="text--white text--bold" href="../../index.html#sluzby">SLUŽBY</a></li>
-            <li class="nav__item"><a class="text--white" href="../reference.html">REFERENCE</a></li>
-            <li class="nav__item"><a class="text--white" href="../onas.html">O NÁS</a></li>
-            <li class="nav__item"><a class="text--white" href="../kontakt.html">KONTAKT</a></li>
-        </menu>
-    </nav>
+    <header class="header header--nevim">
+        <nav class="navbar">
+            <a href="../../index.html">
+                <img src="../../img/logo.png">
+            </a>
+            <div class="hamburger">
+                <span>MENU</span>
+                <img src="../../img/lines.svg">
+            </div>
+            <menu class="navbar__menu">
+                <li class="nav__item"><a class="nav__item__link" href="../../index.html">DOMŮ</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="../../index.html#sluzby">SLUŽBY</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="../reference.html">REFERENCE</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="../onas.html">O NÁS</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="../kontakt.html">KONTAKT</a></li>
+            </menu>
+        </nav>
+    </header>
     <section class="padding">
         <h1>Průmyslové stavby</h1>
         <p>Realizujeme <span class="text--bold">průmyslové objekty ocelové konstrukce, lehké ocelové (stanového typu)</span>, z prefabrikovaných dílců atd. Vzhledem k tomu, že vlastníme dostatek vlastní mechanizace, stáváme se nezávislými na ostatních subdodávkách a tím <span class="text--bold">se dostáváme na přijatelné ceny</span>.</p>
@@ -41,7 +44,7 @@
           </ul>
         </ul>
     </section>
-    <footer class="footer padding text--center">
+    <footer class="footer padding">
         <p class="text--white text--s1">Plácneme si pro Váš projekt?</p>
         <p class="text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
         <a href="../kontakt.html" class="btn btn--light">Nezávazně poptat</a>

@@ -14,10 +14,6 @@
   color: var(--white);
 }
 
-.text--center {
-  text-align: center;
-}
-
 .text--s0 {
   font-size: 2.2rem; /*30px*/
 }
