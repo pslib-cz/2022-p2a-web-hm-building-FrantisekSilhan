@@ -61,13 +61,12 @@
 }
 
 .navbar {
-  position: fixed;
+  position: absolute;
   top: 2em;
   max-width: 1510px;
   width: calc(100% - 2em);
   padding: 0;
   align-self: center;
-  z-index: 9999;
 }
 
 .section__title {
