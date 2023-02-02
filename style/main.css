@@ -228,3 +228,11 @@ html  {
   width: 100%;
   text-align: center;
 }
+
+.contact {
+  margin: 0 -1.5em;
+}
+
+.contact__list {
+  margin: 0 1.5em;
+}

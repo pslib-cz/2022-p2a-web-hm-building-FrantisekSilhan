@@ -69,14 +69,16 @@
   align-self: center;
 }
 
+.section__header {
+  text-align: center;
+}
+
 .section__title {
   font-size: 3.5rem;
-  text-align: center;
 }
 
 .section__description {
   font-size: 1.2rem;
-  text-align: center;
 }
 
 .sluzba__title {
@@ -157,4 +159,20 @@
 
 .reference__img-wrapper {
   height: 100%;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__list {
+  justify-self: center;
+}
+
+.form-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
 }
