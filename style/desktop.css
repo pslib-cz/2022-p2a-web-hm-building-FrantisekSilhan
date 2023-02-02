@@ -1,3 +1,7 @@
+html {
+  font-size: 14px;
+}
+
 .hamburger {
   display: none;
 }
@@ -145,7 +149,7 @@
   font-size: 1.2rem;
 }
 
-.text--s3 {
+.text--s3, .text--s1 {
   font-size: 2.2rem;
 }
 
