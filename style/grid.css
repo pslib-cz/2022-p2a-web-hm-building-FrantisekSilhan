@@ -5,3 +5,17 @@
 .row--3 {
   grid-row: span 3 / span 3;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  grid-auto-flow: dense;
+}
+
+.reference {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5em;
+  justify-items: center;
+}
