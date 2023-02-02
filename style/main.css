@@ -80,7 +80,7 @@ html  {
   color: var(--white);
 }
 
-.nav__item__link--active {
+.nav__item--active a {
   font-weight: 700;
 }
 
