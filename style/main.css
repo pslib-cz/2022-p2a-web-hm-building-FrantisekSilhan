@@ -214,7 +214,7 @@ html  {
   display: flex;
   align-items: center;
   gap: .5em;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 .reference-btn {
