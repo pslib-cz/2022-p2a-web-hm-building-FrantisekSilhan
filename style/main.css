@@ -169,6 +169,7 @@ html  {
 .footer {
   background-color: var(--primary);
   text-align: center;
+  padding: 1.5em;
 }
 
 .list-title {
@@ -235,4 +236,8 @@ html  {
 
 .contact__list {
   margin: 0 1.5em;
+}
+
+.header__btn {
+  display: none;
 }

@@ -50,6 +50,7 @@
 
 .header__body {
   height: 100vh;
+  padding-bottom: 5em;
 }
 
 .header__title {
@@ -175,4 +176,10 @@
 .form-wrapper {
   max-width: 768px;
   margin: 0 auto;
+}
+
+.header__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1em;
 }
