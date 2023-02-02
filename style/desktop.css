@@ -188,3 +188,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 300px;
 }
+
+.list {
+  padding: .5em 4.35em;
+}
