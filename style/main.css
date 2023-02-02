@@ -147,8 +147,9 @@ html  {
 }
 
 .section__content {
-  max-width: 1510px;
+  max-width: 1024px;
   font-size: 1.2rem;
+  margin: 0 auto;
 }
 
 .section {

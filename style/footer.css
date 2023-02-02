@@ -1,0 +1,16 @@
+/*pouze v případě, že footer nedosáhne na konec stránky*/
+.page {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page > div {
+  flex-grow: 1;
+}
+
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
