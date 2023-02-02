@@ -142,6 +142,19 @@
   font-size: 1.2rem;
 }
 
+.text--s3 {
+  font-size: 2.2rem;
+}
+
 .reference {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.sluzby-nabidky {
+  height: 17em;
+  padding-left: 5em;
+}
+
+.reference__img-wrapper {
+  height: 100%;
 }
