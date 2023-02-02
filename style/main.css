@@ -80,7 +80,7 @@ html  {
   color: var(--white);
 }
 
-.nav__item__link--active {
+.nav__item--active a {
   font-weight: 700;
 }
 
@@ -148,6 +148,7 @@ html  {
 
 .section__content {
   max-width: 1510px;
+  font-size: 1.2rem;
 }
 
 .section {
