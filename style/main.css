@@ -154,13 +154,6 @@ html  {
   font-size: 1.6rem;
 }
 
-.reference {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2.5em;
-  justify-items: center;
-}
-
 .reference__item {
   color: var(--text);
   text-decoration: none;
@@ -216,13 +209,6 @@ html  {
   align-items: center;
   gap: .5em;
   margin: 1em 0;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1em;
-  grid-auto-flow: dense;
 }
 
 .reference-btn {

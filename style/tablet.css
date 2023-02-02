@@ -1,0 +1,40 @@
+.header__title {
+  font-size: 3.5rem;
+}
+
+.header__description {
+  font-size: 2rem;
+}
+
+.reference {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery {
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 300px;
+}
+
+.section__title {
+  font-size: 2rem;
+}
+
+.sluzba__title {
+  font-size: 2rem;
+}
+
+.text--s3 {
+  font-size: 1.5rem;
+}
+
+.text--s4 {
+  font-size: 1rem;
+}
+
+.reference__title {
+  font-size: 1.7rem;
+}
+
+.sluzby-nabidky {
+  height: 12.5rem;
+}
