@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 .header__title {
   font-size: 3.5rem;
 }
@@ -15,11 +19,7 @@
   grid-auto-rows: 300px;
 }
 
-.section__title {
-  font-size: 2rem;
-}
-
-.sluzba__title {
+.section__title, .sluzba__title, .text--s1 {
   font-size: 2rem;
 }
 

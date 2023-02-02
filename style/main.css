@@ -146,6 +146,10 @@ html  {
   margin: 0 auto;
 }
 
+.section__content {
+  max-width: 1510px;
+}
+
 .section {
   padding: 1.5em;
 }
