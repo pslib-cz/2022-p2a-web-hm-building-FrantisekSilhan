@@ -11,7 +11,7 @@ html {
 }
 
 .reference {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1em repeat(4, 1fr) 1em;
 }
 
 .gallery {
@@ -37,4 +37,16 @@ html {
 
 .sluzby-nabidky {
   height: 12.5rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .reference__item--venkovni-plochy-restyl {
+    grid-column: 3 / span 2;
+  }
+  .reference__item--hasicska-zbrojnice {
+    grid-column: 2 / span 2;
+  }
+  .reference__item--samoobsluzna-pradelna {
+    grid-column: 4 / span 2;
+  }
 }
