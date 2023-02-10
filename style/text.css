@@ -23,11 +23,20 @@
 }
 
 .text--s4 {
-  font-size: 0.85rem; /*12px*/
+  font-size: 0.9rem;
 }
 
 .section__title {
   font-size: 1.6rem;
+}
+
+@media screen and (min-width: 500px) {
+  .text--s4 {
+    font-size: 1.2rem;
+  }
+  .reference__title {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
