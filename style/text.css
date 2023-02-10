@@ -14,16 +14,8 @@
   color: var(--white);
 }
 
-.text--s0 {
-  font-size: 2.2rem; /*30px*/
-}
-
 .text--s1 {
   font-size: 1.6rem; /*22px*/
-}
-
-.text--s2 {
-  font-size: 1.4rem; /*20px*/
 }
 
 .text--s3 {
@@ -34,14 +26,57 @@
   font-size: 0.85rem; /*12px*/
 }
 
-h1 {
-  line-height: 1.2em;
-}
-
-h3 {
-  font-size: 1.4rem;
-}
-
-h2 {
+.section__title {
   font-size: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .header__title {
+    font-size: 3.5rem;
+  }
+  .header__description, .section__title, .sluzba__title, .text--s1 {
+    font-size: 2rem;
+  }
+  .reference__title {
+    font-size: 1.7rem;
+  }
+  .text--s3 {
+    font-size: 1.5rem;
+  }
+  .text--s4 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  .header__title {
+    font-size: 5rem;
+  }
+  .section__title {
+    font-size: 3.5rem;
+  }
+  .text--s3, .text--s1 {
+    font-size: 2.2rem;
+  }
+  .header__description, .sluzba__title, .reference__title {
+    font-size: 2rem;
+  }
+  .section__description, .sluzba__text, .text--s4 {
+    font-size: 1.2rem;
+  }
+  .reference__title {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 16px;
+  }
 }

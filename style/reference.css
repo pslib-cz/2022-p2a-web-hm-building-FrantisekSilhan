@@ -1,0 +1,61 @@
+.reference {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5em;
+  justify-items: center;
+}
+.reference__item {
+  color: var(--text);
+  text-decoration: none;
+  text-align: center;
+}
+
+.reference-btn {
+  margin-top: 1em;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .reference {
+    grid-template-columns: 1em repeat(4, 1fr) 1em;
+  }
+  @media only screen and (max-width: 1023px) { /*to je naschvál v tom min-widthu*/
+    .reference__item--venkovni-plochy-restyl {
+      grid-column: 3 / span 2;
+    }
+    .reference__item--hasicska-zbrojnice {
+      grid-column: 2 / span 2;
+    }
+    .reference__item--samoobsluzna-pradelna {
+      grid-column: 4 / span 2;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reference__item {
+    position: relative;
+    height: 300px;
+  }
+  .reference__item:hover .reference__description {
+    display: flex;
+    background-color: rgba(235, 108, 39, 0.9);
+  }
+  .reference__description {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: var(--white);
+  }
+  .reference {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .reference__img-wrapper {
+    height: 100%;
+  }
+}

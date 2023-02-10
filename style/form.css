@@ -1,9 +1,4 @@
-.form {
-  width: 100%;
-}
-
 .form__item {
-  width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 1em;
@@ -18,4 +13,11 @@
 
 .form__btn {
   margin-top: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+  .form-wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+  }
 }
