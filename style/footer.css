@@ -1,4 +1,9 @@
-/*pouze v případě, že footer nedosáhne na konec stránky*/
+.footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1.5em;
+}
+
 .page {
   box-sizing: border-box;
   min-height: 100vh;
