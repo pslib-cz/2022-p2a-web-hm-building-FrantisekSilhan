@@ -61,15 +61,15 @@ html  {
 }
 
 .sluzba:nth-child(odd) .sluzba__img {
-  border-radius: 0 0 40px 0;
+  border-radius: 0 0 3em 0;
 }
 
 .sluzba:nth-child(even) .sluzba__img {
-  border-radius: 0 0 0 40px;
+  border-radius: 0 0 0 3em;
 }
 
 .sluzba:nth-child(2) .sluzba__img {
-  border-radius: 0 0 0 20px;
+  border-radius: 0 0 0 1.5em;
 }
 
 .sluzba__img {
@@ -196,9 +196,6 @@ html  {
   .sluzba {
     display: flex;
     gap: 1em;
-  }
-  .sluzba__img {
-    height: 100%;
   }
   .sluzba__aside {
     flex-basis: 50%;
