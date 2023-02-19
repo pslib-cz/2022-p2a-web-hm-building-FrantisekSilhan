@@ -32,7 +32,7 @@ html  {
 }
 
 .header {
-  background: linear-gradient(0deg, rgba(36, 36, 36, 0.4), rgba(36, 36, 36, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #42332A 0%, rgba(255, 255, 255, 0) 100%), url("../img/pageheader-1920w.jpg");
+  background: linear-gradient(0deg, rgba(36, 36, 36, 0.4), rgba(36, 36, 36, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #42332A 0%, rgba(255, 255, 255, 0) 100%), url("../img/pageheader-1920w.webp");
   background-blend-mode: normal, normal, hue, normal;
 }
 
@@ -77,7 +77,7 @@ html  {
 }
 
 .sluzby-nabidky {
-  background: linear-gradient(0deg, rgba(36, 36, 36, 0.8), rgba(36, 36, 36, 0.8)), linear-gradient(180deg, rgba(66, 51, 42, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url("../img/background-CTAblock-4460w.jpg");
+  background: linear-gradient(0deg, rgba(36, 36, 36, 0.8), rgba(36, 36, 36, 0.8)), linear-gradient(180deg, rgba(66, 51, 42, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url("../img/background-CTAblock-4460w.webp");
 }
 
 .section__header {
