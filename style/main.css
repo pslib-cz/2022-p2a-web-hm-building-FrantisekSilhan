@@ -171,9 +171,6 @@ html  {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 300px;
   }
-  .sluzby-nabidky {
-    height: 12.5rem;
-  }
 }
 
 @media screen and (min-width: 1024px) {
