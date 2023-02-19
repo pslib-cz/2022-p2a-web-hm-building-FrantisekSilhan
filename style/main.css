@@ -77,7 +77,6 @@ html  {
 }
 
 .sluzby-nabidky {
-  height: 11rem;
   background: linear-gradient(0deg, rgba(36, 36, 36, 0.8), rgba(36, 36, 36, 0.8)), linear-gradient(180deg, rgba(66, 51, 42, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url("../img/background-CTAblock-4460w.jpg");
 }
 
