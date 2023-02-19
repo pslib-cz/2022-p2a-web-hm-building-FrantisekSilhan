@@ -220,13 +220,14 @@ html  {
   .contact__map-wrapper {
     position: relative;
   }
-  .contact__map-overlay {
+  .contact__map-wrapper::before {
     position: absolute;
+    content: "";
     width: 100%;
     height: 100%;
     top: 0;
   }
-  .contact__map-overlay:hover {
+  .contact__map-wrapper:hover::before {
     background-color: var(--primary);
     opacity: 0.54;
   }
