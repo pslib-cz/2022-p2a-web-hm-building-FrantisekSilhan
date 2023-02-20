@@ -56,30 +56,30 @@
     <h2>Nezávazná poptávka služeb</h2>
     <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
     <form>
-      <label class="form__item text--bold">
+      <label for="name" class="form__item text--bold">
         Jméno a příjmení
-        <input type="text" class="form__item__input">
+        <input id="name" type="text" class="form__item__input">
       </label>
-      <label class="form__item text--bold">
+      <label for="email" class="form__item text--bold">
         E-mail
-        <input type="email" class="form__item__input">
+        <input id="email" type="email" class="form__item__input">
       </label>
-      <label class="form__item text--bold">
+      <label for="phone" class="form__item text--bold">
         Telefon
-        <input type="text" class="form__item__input">
+        <input id="phone" type="text" class="form__item__input">
       </label>
-      <label class="form__item text--bold">
+      <label for="type" class="form__item text--bold">
         Poptávaná služba
-        <select class="form__item__input">
+        <select id="type" class="form__item__input">
           <option value="Novostavba">Novostavba</option>
           <option value="Novostavba">Průmyslová stavba</option>
           <option value="Novostavba">Rekonstrukce</option>
           <option value="Novostavba">Komunikace a zpevněné plochy</option>
         </select>
       </label>
-      <label class="form__item text--bold">
+      <label for="note" class="form__item text--bold">
         Poznámka
-        <textarea rows="10" class="form__item__input"></textarea>
+        <textarea id="note" rows="10" class="form__item__input"></textarea>
       </label>
       <button class="btn form__btn" type="submit">Odeslat nezávaznou poptávku</button>
     </form>
