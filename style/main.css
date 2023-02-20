@@ -227,10 +227,12 @@ html  {
     width: 100%;
     height: 100%;
     top: 0;
-  }
-  .contact__map-wrapper:hover::before {
     background-color: var(--primary);
     opacity: 0.54;
+    transition: opacity ease-in-out 0.1s;
+  }
+  .contact__map-wrapper:hover::before {
+    opacity: 0;
   }
   .header__btn {
     display: inline-flex;
