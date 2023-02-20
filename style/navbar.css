@@ -69,6 +69,7 @@
     width: calc(100% - 2em);
     padding: 0;
     align-self: center;
+    padding-left: .5em;
   }
   .navbar__menu {
     display: flex;
