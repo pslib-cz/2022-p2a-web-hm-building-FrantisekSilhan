@@ -21,7 +21,7 @@
   .reference {
     grid-template-columns: 1em repeat(4, 1fr) 1em;
   }
-  @media only screen and (max-width: 1023px) { /*to je naschvál v tom min-widthu*/
+  @media only screen and (max-width: 1023px) {
     .reference__item--venkovni-plochy-restyl {
       grid-column: 3 / span 2;
     }

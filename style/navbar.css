@@ -88,11 +88,19 @@
     display: none;
   }
   .nav__item {
-    padding: 2em 1.5em;
+    padding: 2em 0;
+    transition: all ease-in-out 0.1s;
+  }
+  .nav__item:hover {
+    background-color: var(--primary);
+  }
+  .nav__item:hover .nav__item__link {
+    color: var(--white);
   }
   .nav__item__link {
     color: var(--text);
     text-decoration: none;
+    padding: 2em 1.5em;
   }
   .nav__item--active {
     background-color: var(--primary);
