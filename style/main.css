@@ -16,9 +16,6 @@ html  {
   font-size: 14px;
   background-color: var(--background);
   color: var(--text);
-
-  max-width: 1920px;
-  margin: 0 auto;
   scroll-behavior: smooth;
 }
 
@@ -142,6 +139,8 @@ html  {
 
 .contact {
   margin: 0 -1.5em;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .contact__list {
@@ -165,6 +164,8 @@ html  {
   grid-template-columns: 1fr;
   gap: 1em;
   grid-auto-flow: dense;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .gallery {
@@ -242,5 +243,15 @@ html  {
   }
   .list {
     padding: .5em 4.35em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    background: linear-gradient(0deg, rgba(36, 36, 36, 0.4), rgba(36, 36, 36, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #42332A 0%, rgba(255, 255, 255, 0) 100%), url("../img/pageheader-3100w.webp");
+    background-position: center 30%;
+  }
+  .header.header--low {
+    background-position: center top;
   }
 }
